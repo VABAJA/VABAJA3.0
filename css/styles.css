@@ -1,0 +1,12 @@
+
+
+/* CARRUSEL  */
+
+.carousel-item {
+    background-repeat: no-repeat;
+   max-width: 300vh;
+   max-height: 30%;
+    background-size: cover;
+    /* height: 50%; */
+
+}
