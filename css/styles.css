@@ -1,12 +1,49 @@
+:root {
+    --fondoBody: #d0d0ff;
+    --nav: #b20000;
+}
+
+
+/* GLOBAL */
+.nav {
+    
+}
+.header{
+    position: relative;
+    top: 264px;
+    z-index: 1000;
+  }
+
+
+.logo {
+    max-width: 250px;
+}
+.carrusel{
+    position: absolute;
+}
 
 
 /* CARRUSEL  */
+.tituloCarrusel {
+    position: absolute;
+    top: -214px;
+}
 
 .carousel-item {
-    background-repeat: no-repeat;
-   max-width: 300vh;
-   max-height: 30%;
+    position: relative;
+    background: no-repeat scroll center scroll;
+    height: 100%;
+    min-height: 300px;
+    width: 100%;
     background-size: cover;
     /* height: 50%; */
 
 }
+
+/* .carousel-caption {
+    display: flex;
+    align-items: flex-start;
+} */
+/* .carousel-caption h1 {
+    top: 0;
+} */
